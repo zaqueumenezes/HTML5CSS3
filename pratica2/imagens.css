@@ -1,0 +1,36 @@
+body {
+    font-size: 12px;
+    font-family: sans-serif;
+    width: 500px;
+    margin: auto;
+    background-image: url(./imagens/desenvolve.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+h1{
+    color: blanchedalmond;
+}
+
+h2{
+    color: aliceblue;
+}
+
+p {
+    line-height: 1.5;
+    color: greenyellow;
+}
+
+.img-card{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.img-luffy{
+    float: right;
+    width: 200px;
+    height: 200px;
+}

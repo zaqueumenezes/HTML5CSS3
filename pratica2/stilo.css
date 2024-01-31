@@ -1,0 +1,122 @@
+body {
+    font-family: Arial sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(/imagens/zaqueu1.jpeg);
+    height: 500px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border: solid 5px transparent;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 5px rgb(255, 0, 200);
+    text-align: left;
+}
+
+.hero-content p {
+    background-color: rgba(0, 0, 0, .8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.hero nav ul {
+    text-align: right;
+    margin: 8px 10px;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    padding: 3.2px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 0 9px;
+}
+
+.hero nav a {
+    color: rgba(100, 200, 150, 1);;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 10px;
+    display: block;
+}
+
+.hero nav li a:hover {
+    background: rgba(255, 255, 200, 0.2)
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 9px;
+    margin-top: 15px;
+    overflow: auto;
+
+}
+
+.card {
+width: 32%;
+float: left;
+box-sizing: border-box;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
+.card img {
+    width: 100%;
+    display: inline-block;
+}
+
+.card p {
+    font-family: Arial;
+    text-transform: uppercase;
+    background: #807e7e;
+    color: blueviolet;
+    padding: 15px;
+    margin: 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.section {
+    text-transform: lowercase;
+    border-color: rgba(50, 48, 48, 1);
+    padding: 10px;
+    background-color: white;
+}
+
+.section h2 {
+    background: rgba(57, 55, 55, 0.149);
+    padding: 5px;
+    border-bottom: solid 1px;
+}
+
+.footer {
+    text-align: center;
+    background: #333;
+    padding: 0.5px;
+    color: rgba(555, 555, 555, 0.9);
+    margin-top: 10px;
+}
